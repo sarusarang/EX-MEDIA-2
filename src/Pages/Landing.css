@@ -14,6 +14,35 @@
     color: red !important;
 }
 
+
+.hero{
+
+    position: fixed;
+    z-index: -1000;
+}
+
+.hero-2{
+
+    position: absolute;
+    top: 100vh;
+    background-color: #ffff;
+}
+
+.hero-change{
+
+    position: none;
+    top: 0px !important;
+    
+
+}
+
+.scrolled{
+
+    background-color: #f8f9fa;
+    padding: 0px !important;
+}
+
+
 .navbar-brand {
 
     width: 5% !important;
@@ -272,6 +301,12 @@
     .offcanvas {
 
         width: 60% !important;
+
+    }
+
+    #about{
+
+        padding: 0px !important;
 
     }
 

@@ -1,0 +1,35 @@
+.how-text h2 {
+
+    font-weight: 700;
+    margin-bottom: 2rem;
+
+}
+
+.unlock {
+
+    margin-top: 2rem;
+    color: #9c9c9c;
+    font-size: medium;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.brand i {
+
+    font-size: 2rem;
+    color: #d2b356;
+    margin-bottom: 1.5rem !important;
+    font-weight: bold;
+
+}
+
+.brand p {
+
+    text-align: justify;
+    color: #111;
+    font-size: 0.9rem;
+    line-height: 25px;
+    font-style: oblique;
+
+}
+

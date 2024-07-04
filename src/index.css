@@ -10,3 +10,11 @@ html{
 
     scroll-behavior: smooth;
 }
+
+
+.line {
+
+    width: 3%;
+    height: 0.8vh;
+    background-color: #d2b356;
+}
