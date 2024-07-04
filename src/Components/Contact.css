@@ -1,0 +1,69 @@
+.contact-icon i {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+
+
+
+}
+
+.contact-icon a {
+
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #111;
+}
+
+.contact-icon a:hover {
+
+    color: blue;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 481px) {
+
+    .contact-icon i {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+
+    }
+
+    .contact-icon h4{
+
+        font-size: 1rem;
+        
+
+    }
+
+    .contact-icon{
+
+
+        margin-right: 3rem !important;
+
+    }
+    .contact-icon p{
+
+        font-size: 0.8rem !important;
+
+    }
+
+    .contact-icon a{
+
+        font-size: small !important;
+    }
+
+
+
+}

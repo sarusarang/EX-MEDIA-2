@@ -1,0 +1,59 @@
+.client-text h6{
+
+color: #9c9c9c;
+
+}
+
+
+.client-text p{
+
+    font-family: monospace;
+}
+
+.client-card{
+
+   position: relative;
+   transition: all ease-in-out 0.6s;
+
+}
+
+.hover-card{
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000007e;
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+.client-card:hover .hover-card {
+
+    opacity: 1;
+  
+
+}
+
+.image-client{
+
+   margin-left: 2rem !important;
+
+}
+
+@media only screen  and (max-width: 481px) {
+
+
+    .image-client{
+
+        margin-left: 0rem !important;
+     
+     }
+
+
+}

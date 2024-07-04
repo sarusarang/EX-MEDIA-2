@@ -7,6 +7,8 @@ import Hero from '../Components/Hero'
 import HowWe from '../Components/HowWe'
 import About from '../Components/About'
 import Services from '../Components/Services'
+import Clients from '../Components/Clients'
+import Contact from '../Components/Contact'
 
 function Landing() {
 
@@ -154,8 +156,9 @@ function Landing() {
                             <a href="#how" onClick={handleClose} className='nav-link off-nav'>How</a>
                             <a href="#about" onClick={handleClose} className='nav-link off-nav'>About</a>
                             <a href="#services" onClick={handleClose} className='nav-link off-nav'>Services</a>
-                            <a href="#contact" onClick={handleClose} className='nav-link off-nav'>Contact</a>
                             <a href="#client" onClick={handleClose} className='nav-link off-nav'>Clients</a>
+                            <a href="#contact" onClick={handleClose} className='nav-link off-nav'>Contact</a>
+
 
 
                         </div>
@@ -200,6 +203,20 @@ function Landing() {
                     <div id='services' className='mt-5 pt-5 w-100'>
 
                         <Services />
+
+                    </div>
+
+
+                    <div className='w-100 pt-5 mt-5' id='client'>
+
+                        <Clients />
+
+
+                    </div>
+
+                    <div className='mt-5 p-5 w-100' id='contact'>
+
+                        <Contact />
 
                     </div>
 

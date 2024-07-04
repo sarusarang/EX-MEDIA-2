@@ -1,0 +1,185 @@
+.card {
+
+    border: none !important;
+    outline: none !important;
+    padding: 3rem 1rem 2rem 1rem !important;
+    border-radius: 2rem !important;
+    transition: all ease-in-out 0.8s;
+    width: 25rem;
+
+}
+
+.card:hover {
+
+
+    background-color: #000 !important;
+    color: #fff !important;
+
+}
+
+.card i {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+
+}
+
+.card-text {
+
+    text-align: justify !important;
+
+}
+
+.card-title h5 {
+
+    font-weight: 800 !important;
+
+
+}
+
+.thunder {
+
+    background: -webkit-linear-gradient(#212529, #ffc107);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.graphics {
+
+    padding-bottom: 1.5rem;
+
+}
+
+.market {
+
+    padding-bottom: 4.5rem;
+}
+
+.card-flex {
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .card {
+
+        width: 22rem !important;
+
+    }
+
+    .graphics {
+
+        padding-bottom: 0.3rem !important;
+
+    }
+
+    .market {
+
+        padding-bottom: 6rem;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+
+    .card {
+
+        width: 19rem !important;
+
+    }
+
+    .graphics {
+
+        padding-bottom: 0.3rem !important;
+
+    }
+
+    .market {
+
+        padding-bottom: 4.5rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+    .card {
+
+        width: 14.5rem !important;
+
+    }
+
+    .graphics {
+
+        padding-bottom: 0.3rem !important;
+
+    }
+
+    .market {
+
+        padding-bottom: 4.5rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .card {
+
+        width: 25rem !important;
+
+    }
+
+    .graphics {
+
+        padding-bottom: 0.3rem !important;
+
+    }
+
+    .market {
+
+        padding-bottom: 4.5rem;
+    }
+
+    .mt-card {
+
+        margin-top: 3rem !important;
+    }
+}
+
+
+@media only screen  and (max-width: 481px) {
+
+    .card {
+
+        width: 25rem !important;
+
+    }
+
+    .graphics {
+
+        padding-bottom: 0.3rem !important;
+
+    }
+
+    .market {
+
+        padding-bottom: 4.5rem;
+    }
+
+    .mt-card {
+
+        margin-top: 3rem !important;
+    }
+}
