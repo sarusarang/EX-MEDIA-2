@@ -18,3 +18,24 @@ html{
     height: 0.8vh;
     background-color: #d2b356;
 }
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+    width: 12px; /* You can adjust the width as needed */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 6px; /* Optional: adds rounded corners to the thumb */
+}
+
+/* Scrollbar Thumb on Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #444242; /* Slightly lighter black for hover effect */
+}
