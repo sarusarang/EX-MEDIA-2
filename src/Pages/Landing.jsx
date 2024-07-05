@@ -182,10 +182,10 @@ function Landing() {
 
 
                 {/* How We Help You */}
-                <div className='w-100 hero-2 p-2' >
+                <div className=' hero-2 p-2' >
 
 
-                    <div id='how' className='mt-5 p-5 w-100'>
+                    <div id='how' className='mt-5 p-5'>
 
                         <HowWe />
 

@@ -26,6 +26,7 @@
     position: absolute;
     top: 100vh;
     background-color: #ffff;
+    width: 100%;
 }
 
 .hero-change{
@@ -313,6 +314,10 @@
     #contact{
 
         padding: 1rem !important;
+    }
+    .hero-2{
+
+        width: 108%;
     }
 
 

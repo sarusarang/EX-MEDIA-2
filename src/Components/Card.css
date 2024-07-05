@@ -1,0 +1,168 @@
+.Hoverble {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.Hoverble .card {
+    position: relative;
+    max-width: 420px;
+    height: 215px;
+    background-color: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+   
+    border-radius: 15px;
+}
+
+.Hoverble .card:hover {
+    height: 400px;
+    background-color: #111;
+    
+}
+
+.Hoverble .card:hover .content {
+
+   color: #fff;
+    
+}
+
+
+.Hoverble .card .image {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -40%;
+    left: 14%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.Hoverble .card .image img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.Hoverble .card .image i {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    background-color: #fff !important;
+    padding: 4rem 1rem 4rem 1rem;
+
+}
+
+
+.Hoverble .card .content {
+    position: relative;
+    top: -140px;
+    padding: 10px 15px;
+    color: #111;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+}
+
+.Hoverble .card:hover .content {
+    margin-top: 30px;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+
+}
+
+
+.thunder {
+
+    background: -webkit-linear-gradient(#000, #0d6efd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+/* Responsive */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+
+
+    .Hoverble .card .image {
+       
+        width: 230px;
+        height: 230px;
+        top: -40%;
+        left: 14%;
+      
+    }
+
+}
+
+
+/* Responsive */
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+
+
+
+    .Hoverble .card .image {
+       
+        width: 180px;
+        height: 230px;
+        top: -40%;
+        left: 14%;
+      
+    }
+
+
+    .Hoverble .card .image i {
+
+       
+        font-size: 4rem;
+        background-color: #fff !important;
+        padding: 3rem 0.8rem 3rem 0.8rem;
+    
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width: 481px) {
+
+
+
+    .Hoverble .card .image {
+       
+        width: 200px;
+        height: 230px;
+        top: -40%;
+        left: 22%;
+      
+    }
+
+
+    .Hoverble .card .image i {
+
+       
+        font-size: 4rem;
+        background-color: #fff !important;
+        padding: 4rem 1rem 4rem 1rem;
+    
+    }
+    
+
+}
